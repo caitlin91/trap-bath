@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Analysis-TB.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+The style file: agsm.bst
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+Reallocating 'name_of_file' (item size: 1) to 52 items.
+I couldn't open database file ../../../References/rRP../../../References/trapBath.bib
+---line 130 of file Analysis-TB.aux
+ : \bibdata{../../../References/methodology,../../../References/rRP../../../References/trapBath
+ :                                                                                             ,../../../References/tynesideEnglish}
+I'm skipping whatever remains of this command
+Database file #1: ../../../References/methodology.bib
+Warning--I didn't find a database entry for "Labov2006"
+You've used 5 entries,
+            2909 wiz_defined-function locations,
+            673 strings with 5680 characters,
+and the built_in function-call counts, 21034 in all, are:
+= -- 3443
+> -- 273
+< -- 0
++ -- 1664
+- -- 84
+* -- 1799
+:= -- 4264
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 67
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 64
+empty$ -- 126
+format.name$ -- 99
+if$ -- 3748
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 2
+newline$ -- 21
+num.names$ -- 51
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 75
+quote$ -- 0
+skip$ -- 48
+stack$ -- 0
+substring$ -- 4881
+swap$ -- 5
+text.length$ -- 70
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 0
+while$ -- 105
+width$ -- 0
+write$ -- 65
+(There was 1 error message)

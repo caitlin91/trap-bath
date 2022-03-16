@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {0.1}Introduction}{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}The Split}{3}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}The Split in CoRP-SE speakers}{3}{subsection.0.2.1}%
+\contentsline {subsubsection}{\nonumberline F1 of the CoRP-SE speakers}{4}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline F2 of the CoRP-SE speakers}{7}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Duration of the CoRP-SE speakers}{8}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {0.2.2}The Split in DECTE speakers}{11}{subsection.0.2.2}%
+\contentsline {subsubsection}{\nonumberline F1 of the DECTE speakers}{11}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline F2 of the DECTE speakers}{13}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Duration of the DECTE speakers}{14}{subsubsection*.29}%
+\contentsline {subsection}{\numberline {0.2.3}The Split in CoRP-NE speakers}{17}{subsection.0.2.3}%
+\contentsline {subsubsection}{\nonumberline F1 of the CoRP-NE speakers}{18}{subsubsection*.36}%
+\contentsline {subsubsection}{\nonumberline F2 of the CoRP-NE speakers}{19}{subsubsection*.41}%
+\contentsline {subsubsection}{\nonumberline Duration of the CoRP-NE speakers}{20}{subsubsection*.45}%
+\contentsline {section}{\numberline {0.3}\textsc {Bath} vowel alone}{22}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}F1}{24}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}F2}{24}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {0.3.3}Duration}{26}{subsection.0.3.3}%
+\contentsline {chapter}{\nonumberline Bibliography}{27}{chapter*.53}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

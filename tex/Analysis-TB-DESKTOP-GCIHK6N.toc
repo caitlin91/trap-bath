@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {0.1}Introduction}{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}The Split}{3}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}CoRP-SE}{3}{subsection.0.2.1}%
+\contentsline {subsubsection}{\nonumberline F1}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline F2}{5}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Duration}{7}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {0.2.2}DECTE}{8}{subsection.0.2.2}%
+\contentsline {subsubsection}{\nonumberline F1}{9}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline F2}{11}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Duration}{12}{subsubsection*.29}%
+\contentsline {subsection}{\numberline {0.2.3}CoRP-NE}{14}{subsection.0.2.3}%
+\contentsline {subsubsection}{\nonumberline F1}{15}{subsubsection*.34}%
+\contentsline {subsubsection}{\nonumberline F2}{16}{subsubsection*.39}%
+\contentsline {subsubsection}{\nonumberline Duration}{17}{subsubsection*.43}%
+\contentsline {section}{\numberline {0.3}\textsc {Bath} vowel alone}{19}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}F1}{19}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}F2}{20}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {0.3.3}Duration}{22}{subsection.0.3.3}%
+\contentsline {chapter}{\nonumberline Bibliography}{23}{chapter*.52}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

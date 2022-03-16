@@ -1,0 +1,29 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Fruehwald}{2020}{syllabifyr}
+Fruehwald, J.  \harvardyearleft 2020\harvardyearright , {\em Syllabifyr:
+  {{Syllabifier}} for {{CMU}} Dictionary Transcriptions}.
+\newline\harvardurl{https://CRAN.R-project.org/package=syllabifyr}
+
+\harvarditem{{R Core Team}}{2021}{RCoreTeam2021}
+{R Core Team}  \harvardyearleft 2021\harvardyearright , {\em R: {{A}} Language
+  and Environment for Statistical Computing}, {R Foundation for Statistical
+  Computing}, {Vienna, Austria}.
+\newline\harvardurl{https://www.R-project.org/}
+
+\harvarditem[Rosenfelder et~al.]{Rosenfelder, Fruehwald, Evanini, Seyfarth,
+  Gorman, Prichard \harvardand\ Yuan}{2014}{FAVE}
+Rosenfelder, I., Fruehwald, J., Evanini, K., Seyfarth, S., Gorman, K.,
+  Prichard, H. \harvardand\ Yuan, J.  \harvardyearleft 2014\harvardyearright ,
+  `{{FAVE}} ({{Forced Alignment}} and {{Vowel Extraction}}) {{Program Suite}}'.
+
+\harvarditem{Saefken \harvardand\ Ruegamer}{2018}{cAIC4}
+Saefken, B. \harvardand\ Ruegamer, D.  \harvardyearleft 2018\harvardyearright ,
+  `{{cAIC4}}: {{Conditional Akaike}} information criterion for lme4'.
+\newline\harvardurl{https://arxiv.org/abs/1803.05664}
+
+\harvarditem{Winter}{2019}{Winter2019}
+Winter, B.  \harvardyearleft 2019\harvardyearright , {\em Statistics for
+  {{Linguists}}: {{An Introduction Using R}}}, {Routledge}.
+
+\end{thebibliography}
