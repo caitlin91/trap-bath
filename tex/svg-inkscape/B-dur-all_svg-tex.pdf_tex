@@ -1,0 +1,85 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'B-dur-all_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{432bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.66666667)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{B-dur-all_svg-tex.pdf}}%
+    \put(0.0900463,0.1091435){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0.0900463,0.18578702){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.7\end{tabular}}}}%
+    \put(0.0900463,0.26243054){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.9\end{tabular}}}}%
+    \put(0.0900463,0.33905093){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.1\end{tabular}}}}%
+    \put(0.0900463,0.41569445){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.3\end{tabular}}}}%
+    \put(0.0900463,0.49233797){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
+    \put(0.0900463,0.56898148){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{B-dur-all_svg-tex.pdf}}%
+    \put(0.17384259,0.06384256){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-NE\end{tabular}}}}%
+    \put(0.29277779,0.06384256){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-SE\end{tabular}}}}%
+    \put(0.41171296,0.06384256){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}DECTE-NE\end{tabular}}}}%
+    \put(0.29277779,0.03236114){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}corpus\end{tabular}}}}%
+    \put(0.04641204,0.36618056){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}log_{10}(duration (msec))\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{B-dur-all_svg-tex.pdf}}%
+    \put(0.58043982,0.1091435){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0.58043982,0.19217594){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}100\end{tabular}}}}%
+    \put(0.58043982,0.2751852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}200\end{tabular}}}}%
+    \put(0.58043982,0.35821759){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}300\end{tabular}}}}%
+    \put(0.58043982,0.44125001){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}400\end{tabular}}}}%
+    \put(0.58043982,0.52425926){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}500\end{tabular}}}}%
+    \put(0.58043982,0.60729167){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{B-dur-all_svg-tex.pdf}}%
+    \put(0.66425924,0.06384256){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-NE\end{tabular}}}}%
+    \put(0.78319444,0.06384256){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CoRP-SE\end{tabular}}}}%
+    \put(0.90212963,0.06384256){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}DECTE-NE\end{tabular}}}}%
+    \put(0.78319444,0.03236114){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}corpus\end{tabular}}}}%
+    \put(0.53064815,0.36618056){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}duration (msec)\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%

@@ -5,16 +5,18 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 32 items.
 Reallocating 'name_of_file' (item size: 1) to 52 items.
-I couldn't open database file ../../../References/rRP../../../References/trapBath.bib
----line 130 of file Analysis-TB.aux
- : \bibdata{../../../References/methodology,../../../References/rRP../../../References/trapBath
- :                                                                                             ,../../../References/tynesideEnglish}
-I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 36 items.
 Database file #1: ../../../References/methodology.bib
-Warning--I didn't find a database entry for "Labov2006"
+Database file #2: ../../../References/rRP../../../References/trapBath.bib
+Repeated entry---line 180 of file ../../../References/rRP../../../References/trapBath.bib
+ : @misc{FAVE
+ :           ,
+I'm skipping whatever remains of this entry
+Database file #3: ../../../References/tynesideEnglish.bib
+Warning--I didn't find a database entry for "Labov2006c"
 You've used 5 entries,
             2909 wiz_defined-function locations,
-            673 strings with 5680 characters,
+            674 strings with 5717 characters,
 and the built_in function-call counts, 21034 in all, are:
 = -- 3443
 > -- 273

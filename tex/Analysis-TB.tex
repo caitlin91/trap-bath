@@ -1,5 +1,5 @@
 % !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
-\documentclass[../../../00.FullDoc/tex/ThesisSkeleton-draft2]{subfiles}
+\documentclass[../../00.FullDoc/tex/Thesis]{subfiles}
 
 %\documentclass[12pt,a4paper,notitlepage,
 %draft,
@@ -174,8 +174,8 @@
 
 \begin{document}
 	
-	\newcommand{\onlyinsubfile}[1]{#1}
-	\newcommand{\notinsubfile}[1]{}
+	\renewcommand{\onlyinsubfile}[1]{}
+	\renewcommand{\notinsubfile}[1]{#1}
 	\maketitle
 	\pagebreak
 	\tableofcontents
@@ -185,15 +185,17 @@
 \section{Introduction}
 Formant measurements for the below analysis were taken from the normalised FAVE \citep{FAVE} output, which is taken at one third duration (see chapter \onlyinsubfile{5}\notinsubfile{\ref{ch:Methodology}}), and normalised using the Lobanov method. The syllable information used was produced using the transcriptions from MFA/FAVE and the syllabifyr package \citep{syllabifyr}.
 
-In order to prevent over fitting of models the linguistic predictors were plotted with F1 and F2, and only included if variation was seen between the levels of the predictor\todocontent{how to defend this better - ask Dan?}. Models were compared using CAIC, including using the stepCAIC() function from the cAIC4 package \citep{cAIC4} to determine the model with the best fit. Unless involved in an interaction, categorical predictors were sum coded (suing contr.sum() from the stats package \citealt{RCoreTeam2021}) in order to understand the intercept as a mean in real terms rather than at a combination of single levels of the predictors \cite{Winter2019}, those that were sum-coded are marked in the model tables as \quotesingle{predictor\textit{Sum}}. Continuous predictors were scaled to a z-score using the scale() function \citep{RCoreTeam2021}. Duration is measured by FAVE in seconds, but was converted to milliseconds (x1000) for readability and log10 transformed to remove positive skew \cite{Winter2019}.
+In order to prevent over fitting of models the linguistic predictors were plotted with F1 and F2, and only included if variation was seen between the levels of the predictor\todocontent{how to defend this better - ask Dan?}. Models were compared using CAIC, including using the stepCAIC() function from the cAIC4 package \citep{cAIC4} to determine the model with the best fit. Unless involved in an interaction, categorical predictors were sum coded (suing contr.sum() from the stats package \citealt{RCoreTeam2021}) in order to understand the intercept as a mean in real terms rather than at a combination of single levels of the predictors \cite{Winter2019}, those that were sum-coded are marked in the model tables as \quotesingle{predictor\textit{Sum}}. Continuous predictors were scaled to a z-score using the scale() function \citep{RCoreTeam2021}. Duration is measured by FAVE in seconds, but was converted to milliseconds (x1000) for readability and log10 transformed to remove positive skew \citep{Winter2019}.
 
-The origins of the \bath{} lexical set are described as lengthening and backing, and it is generally considered to be merged with the \palm{} (and \scs{start}) sets in southern varieties of English (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}}). Therefore, two approaches to modelling were taken. First, within each corpus group models included \trap{}, \bath{}, and \palm{} (start words were coded as \palm{} since there is no difference in non-rhotic speakers) lexical sets to ascertain the pattern of \bath{} in relation to the other two sets of words. This analysis included F1 (to check for vowel height difference), F2 (to understand the reported difference in frontness), and duration. For vowels of the same quality \cite{Labov2006} say that a difference of 50msec is needed to form a change in vowel category. However, since \bath{} moving from \trap{} to \palm{} is also a change in vowel quality, a smaller difference in duration may contribute to a change in category. The second part of the analysis will take the \bath{} words alone and look at the effects on their realisation by both speakers group and morpho-phonological environment. Since the \bath{} set is backed on phonological environment (pre-fricative, and occasionally pre-nasal), following manner was not included in the models to avoid collinearity.
+The origins of the \bath{} lexical set are described as lengthening and backing, and it is generally considered to be merged with the \palm{} (and \scs{start}) sets in southern varieties of English (see chapter \onlyinsubfile{3}\notinsubfile{\ref{ch:LitReviewSocio}}). Therefore, two approaches to modelling were taken. First, within each corpus group models included \trap{}, \bath{}, and \palm{} (start words were coded as \palm{} since there is no difference in non-rhotic speakers) lexical sets to ascertain the pattern of \bath{} in relation to the other two sets of words. This analysis included F1 (to check for vowel height difference), F2 (to understand the reported difference in frontness), and duration. For vowels of the same quality \citet{Labov2006c} say that a difference of 50msec is needed to form a change in vowel category. However, since \bath{} moving from \trap{} to \palm{} is also a change in vowel quality, a smaller difference in duration may contribute to a change in category. The second part of the analysis will take the \bath{} words alone and look at the effects on their realisation by both speakers group and morpho-phonological environment. Since the \bath{} set is backed on phonological environment (pre-fricative, and occasionally pre-nasal), following manner was not included in the models to avoid collinearity.
+
+It is found in the analysis below that the \TB{} is as expected in the CoRP-SE speakers, being found in F2 and duration, with a small effect of F1. The DECTE speakers also behave as expected, with no significant difference between \trap{} and \bath{}. The CoRP-NE speakers are found to broadly pattern with the DECTE speakers, with some variation observed.
 
 %bonus analysis - trap and bath words pre-fricative - what else makes them likely to be bath? \trap{} and \bath{} words together to better understand the nature of the split (for example why there are differences in pairs such as \textit{gas, grass} and \textit{class, classic})
 	
 \section{The Split} \label{sec:TBSplit}
 \subsection{The Split in CoRP-SE speakers}
-The \TB{} split as seen in the South East speakers is confirmed as the vowel in \bath{} words patterning with \palm{} rather than \trap{}. This is seen in an F1 difference of 98Hz and an F2 difference of  363Hz. The \bath{} (and \palm{}) words have vowels that are higher and further back than the vowels in \trap{} words.  There was also some interaction between speakers sex and lexical set in the F1 dimension, full analysis of the split is found below.
+The \TB{} split as seen in the South East speakers is confirmed as the vowel in \bath{} words patterning with \palm{} rather than \trap{}. This is seen in an F1 difference between \trap{} and \bath{}/\palm{} of -98Hz and an F2 difference of -363Hz. There was also a duration difference of 28msec found. The \bath{} (and \palm{}) words have vowels that are higher, further back, and longer than the vowels in \trap{} words. There was also some interaction between speakers sex and lexical set in the F1 dimension, full analysis of the split is found below.
 
 \begin{figure}[h]
 	\includegraphics[width=\textwidth]{../figures/TBP-SE-vplot.png}
@@ -202,7 +204,7 @@ The \TB{} split as seen in the South East speakers is confirmed as the vowel in 
 
 
 \subsubsection{F1 of the CoRP-SE speakers}
-The best fit model of F1 of \trap{}, \bath{}, and \palm{} in the CoRP-SE speakers is shown in table \ref{tbl:TBPF1SE}, which includes an interaction effect of lexical set and speaker sex. The calculation of the interaction can be seen in table \ref{tbl:TBPF1SE-inter} (note, the cells in grey are marked to show that none of the effects that distinguish the \palm{} values from the \bath{} values had a t-value greater than 1.4 so could be considered negligible). This demonstrates that \bath{} patterns with \palm{} and the \TB{} split in the South East speakers has an overall higher vowel in \trap{} than in \bath{} (see figure \ref{fig:TBPF1SE}). A mean F1 difference of +98Hz (calculated between \bath{} and \trap{}, excluding the \palm{} effect). This is larger in female speakers (+117Hz) due to a lower \bath{} and higher \trap{}, and lower in the male speakers (+79Hz) due to a higher \bath{} and lower \trap{}. Overral the mean F1 for vowels in \bath{} words is 740Hz, for \palm{} words 755Hz, and for \trap{} words 857Hz.
+The best fit model of F1 of \trap{}, \bath{}, and \palm{} in the CoRP-SE speakers is shown in table \ref{tbl:TBPF1SE}, which includes an interaction effect of lexical set and speaker sex. The calculation of the interaction (from intercept values) can be seen in table \ref{tbl:TBPF1SE-inter} (note, the cells in grey are marked to show that none of the effects that distinguish the \palm{} values from the \bath{} values had a t-value greater than 1.4 so could be considered negligible). This demonstrates that \bath{} patterns with \palm{} and the \TB{} split in the South East speakers has an overall higher vowel in \trap{} than in \bath{} (see figure \ref{fig:TBPF1SE}). A mean F1 difference of +98Hz (calculated between \bath{} and \trap{}, excluding the \palm{} effect). This is larger in female speakers (+117Hz) due to a lower \bath{} and higher \trap{}, and lower in the male speakers (+79Hz) due to a higher \bath{} and lower \trap{}. Overall the mean F1 for vowels in \bath{} words is 740Hz, for \palm{} words 755Hz, and for \trap{} words 857Hz.
 \input{../models/TBP-SE-F1-mod.tex}
 
 % Table generated by Excel2LaTeX from sheet 'TBPF1SE'
@@ -227,7 +229,7 @@ The best fit model of F1 of \trap{}, \bath{}, and \palm{} in the CoRP-SE speaker
 \end{figure}
 
 \subsubsection{F2 of the CoRP-SE speakers}
-The best fit model for the F2 of \trap{}, \bath{}, and \palm{}, can be seen in table \ref{tbl:TBPF2SE}. Similar to the model of F1 there is a difference between \bath{} and \trap{} (+363Hz, t=18.97) but little to none between \bath{} and \palm{} (-39Hz, t = -1.81), again supporting past evidence that \bath{} patterns with \palm{} in the South East, this difference is shown in figure \ref{fig:TBPF2SE}. The mean F2 for vowels in the \bath{} lexical set is 1215Hz, for \palm{} 1175Hz, and for \trap{} 1578Hz; there is no other significant variation.
+The best fit model for the F2 of \trap{}, \bath{}, and \palm{}, can be seen in table \ref{tbl:TBPF2SE}. Similar to the model of F1 there is a difference between \bath{} and \trap{} (+363Hz, t=18.97) but little to none between \bath{} and \palm{} (-39Hz, t = -1.81), again supporting what is stated in the literature that \bath{} patterns with \palm{} in the South East; this difference is shown in figure \ref{fig:TBPF2SE}. The mean F2 for vowels in the \bath{} lexical set is 1215Hz, for \palm{} 1175Hz, and for \trap{} 1578Hz; there is no other significant variation.
 
 \input{../models/TBP-SE-F2-mod.tex}
 
@@ -241,30 +243,26 @@ The best fit model for the F2 of \trap{}, \bath{}, and \palm{}, can be seen in t
 
 %\input{../models/TBP-SE-dur-mod.tex}
 \input{../models/TBP-SE-logdur-mod.tex}
-The model for duration of the \trap{}, \bath{}, and \palm{} vowels is shown in table \ref{tbl:TBPdurSE}. The best fit model included an interaction between lexical set and presence of coda, as shown in table \ref{tbl:TBPdurSE-inter}. The mean duration of the vowel in the \bath{} words is 123msec However, the only significant effect seen is that of \trap{}, which is 28msec shorter than \palm{} and \bath{}. This shows that \bath{} words are broadly the same length as \palm{} words and different to \trap{} words, demonstrating that the \TB{} split is also found in duration.
+The model for duration of the \trap{}, \bath{}, and \palm{} vowels is shown in table \ref{tbl:TBPlogdurSE}. The best fit model included an interaction between lexical set and presence of coda, as shown in table \ref{tbl:TBPdurSE-inter}. The mean duration of the vowel in the \bath{} words is 123msec. However, the only significant effect seen is that of \trap{}, which is 28msec shorter than \palm{} and \bath{}. This shows that \bath{} words are broadly the same length as \palm{} words and different to \trap{} words, demonstrating that the \TB{} split is also found in duration.
 
 % Table generated by Excel2LaTeX from sheet 'TBPlogdurSE'
 \begin{table}[htbp]
 	\centering
 	\begin{tabular}{lrrrrrr}
-		& \multicolumn{1}{l}{\bath{}} & \multicolumn{1}{l}{\palm{}} & \multicolumn{1}{l}{\trap{}} & \multicolumn{1}{l}{\trap{}-bath{} difference} & \multicolumn{1}{l}{\palm{}-\bath{} difference} & \multicolumn{1}{l}{\trap{}-\palm{} difference} \\
+		& \multicolumn{1}{l}{\bath{}} & \multicolumn{1}{l}{\palm{}} & \multicolumn{1}{l}{\trap{}} & \multicolumn{1}{l}{\trap{}-\bath{} diff} & \multicolumn{1}{l}{\palm{}-\bath{} diff} & \multicolumn{1}{l}{\trap{}-\palm{} diff} \\
 		\hline
-		has\_codaFALSE & 123.0269 & 141.2538 & 95.49926 & -27.53 & 18.23 & -45.75 \\
-		has\_codaTRUE & 131.8257 & 147.9108 & 114.8154 & -17.01 & 16.09 & -33.10 \\
+		no coda & 123.0269 & 141.2538 & 95.49926 & -27.53 & 18.23 & -45.75 \\
+		coda & 131.8257 & 147.9108 & 114.8154 & -17.01 & 16.09 & -33.10 \\
 		\hline
 		average & 127.4263 & 144.5823 & 105.1573 & -22.27 & 17.16 & -39.42 \\
 		\hline
 	\end{tabular}%s
-	\caption{Interaction effects of lexical set and presence of coda on \trap{}, \bath{}, and \palm{} in CoRP-SE speakers (converted to msec)} 
+	\caption{Interaction effects of lexical set and presence of coda on duration of \trap{}, \bath{}, and \palm{} in CoRP-SE speakers (converted to msec)} 
 	\label{tbl:TBPdurSE-inter}%
 \end{table}%
 
 
-
-
-
 \todocontentinline{Without perception data it is difficult to tell if this length difference is contributing to the status of the \bath{} words.}
-
 
 
 \begin{figure}[h]
@@ -274,7 +272,7 @@ The model for duration of the \trap{}, \bath{}, and \palm{} vowels is shown in t
 
 
 \subsection{The Split in DECTE speakers}
-In models of F1, F2, and duration, the DECTE speakers do not show any difference between \trap{} and \bath{} words. The difference between \trap{} and \palm{} is 70Hz in F1 and 205Hz in F2. These speakers show a more spread out \palm{} distribution than the CoRP-SE speakers but they show no difference between \trap{} and \bath{}; there is no evidence of a \TB{} split, the models demonstrating this can be seen below.
+In models of F1, F2, and duration, the DECTE speakers do not show significant differences between \trap{} and \bath{} words. There are some details in variation which are outlined in the sections below. The difference between \trap{} and \palm{} is 70Hz in F1 and 205Hz in F2. These speakers show a more spread out \palm{} distribution than the CoRP-SE speakers (standard deviation: CoRP-SE = 117, DECTE = 198) but they show no difference between \trap {} and \bath{}; there is no evidence of a \TB{} split.
 
 \begin{figure}[h]
 	\includegraphics[width=\textwidth]{../figures/TBP-DE-vplot.png}
@@ -285,15 +283,15 @@ In models of F1, F2, and duration, the DECTE speakers do not show any difference
 
 \subsubsection{F1 of the DECTE speakers}
 \input{../models/TBP-DE-F1-mod.tex}
-Table \ref{tbl:TBPF1DE} shows the best fit model for F1 of the \trap{}, \bath{}, and \palm{} words in the DECTE speakers. The mean F2 of the vowel in the \bath{} words is shown to be 842Hz, 70Hz higher (lower in the mouth) than the \palm{} words, which have a mean of 771 Hz and almost identical to the \trap{} words (mean = 841Hz). As would be expected from speakers in the North of England, the DECTE speakers are not showing an evidence of a \TB{} split in F1.
+Table \ref{tbl:TBPF1DE} shows the best fit model for F1 of the \trap{}, \bath{}, and \palm{} words in the DECTE speakers. The mean F2 of the vowel in the \bath{} words is shown to be 842Hz, 70Hz higher (lower in the mouth) than the \palm{} words, which have a mean of 771 Hz, and almost identical to the \trap{} words (mean = 841Hz). As would be expected from speakers in the North of England, the DECTE speakers are not showing an evidence of a \TB{} split in F1.
 
 \begin{figure}[h]
-	\includesvg[width=\textwidth]{../figures/TBP-DE-F1.svg}
+	\includesvg[width=\textwidth]{../figures/TBP-NE-F1.svg}
 	\caption{F1 of \trap{}, \bath{} and \palm{}  in DECTE speakers} \label{fig:TBF1DE}
 \end{figure}
 
 \subsubsection{F2 of the DECTE speakers}
-The best fit model for the F2 of the \trap{}, \bath{}, and \palm{} words is shown in table \ref{tbl:TBPF2DE}. The vowels in the \bath{} words have a mean of 1505Hz and  in \palm{} words, 1324 Hz (difference of 181Hz), showing that \bath{} is further forward in the vowel space. This is supported by the negligible difference between the \bath{} and \trap{} words, which have a mean of 1530 Hz. The difference between \palm{} and \trap{}/\bath{} is also smaller than in CoRP-SE speakers. 
+The best fit model for the F2 of the \trap{}, \bath{}, and \palm{} words is shown in table \ref{tbl:TBPF2DE}. The vowels in the \bath{} words have a mean of 1505Hz and  in \palm{} words, 1324 Hz (difference of 181Hz), showing that \bath{} is further forward in the vowel space. This is supported by the negligible difference between \bath{} and the \trap{} words, which have a mean of 1530 Hz. The difference between \palm{} and \trap{}/\bath{} is also smaller than in CoRP-SE speakers (CoRP-SE = 400Hz difference). This seems to be caused by a \palm{} vowel that is further forwards (mean = 1324Hz) than in CoRP-SE speakers (mean = 1175); \trap{} is in a similar place (CoRP-SE = 1578Hz, DECTE = 1530Hz) in both groups. 
 
 \input{../models/TBP-DE-F2-mod.tex}
 
@@ -305,7 +303,7 @@ The best fit model for the F2 of the \trap{}, \bath{}, and \palm{} words is show
 
 \subsubsection{Duration of the DECTE speakers}
 \input{../models/TBP-DE-logdur-mod.tex}
-The best fit model of duration in the DECTE speakers can be seen in table \ref{tbl:TBPdurDE} and the interaction calculation (converted to msec) is shown in table \ref{tbl:TBPdurDE-inter}. The model shows that the mean vowel length in the \bath{} words is 94msec long. Those with a coda are approximately the same length as the \trap{} words with codas (4Hz difference), though in the words without codas the difference is larger (-22msec). There is a difference between \trap{} and \palm{} (-20msec), however, all of these values are closer to the value for the \trap{} words in the CoRP-SE speakers than to the \palm{} and \bath{} values in the CoRP-SE speakers demonstrating that not only do the DECTE speakers not show a \TB{} split in duration, they also broadly do not have a long \palm{} vowel. This supports the conclusion drawn from the variation found in F2 that the \palm{} vowel is not consistently the same in DECTE speakers as in the CoRP-SE speakers.
+The best fit model of duration in the DECTE speakers can be seen in table \ref{tbl:TBPdurDE} and the interaction calculation (converted to msec) is shown in table \ref{tbl:TBPdurDE-inter}. The model shows that the mean vowel length in the \bath{} words is 94msec. Those with a coda are approximately the same length as the \trap{} words with codas (-4Hz difference), though in the words without codas the difference is larger (-22msec) due to shorter \trap{} vowels in open syllables . There is a difference between \trap{} and \palm{} (-20msec), however, all of these values are closer to the value for the \trap{} words in the CoRP-SE speakers than to the \palm{} and \bath{} values in the CoRP-SE speakers demonstrating that not only do the DECTE speakers not show a \TB{} split in duration, they also generally do not have a long \palm{} vowel. This supports the conclusion drawn from the variation found in F2 that the \palm{} vowel is not consistently the same in DECTE speakers as in the CoRP-SE speakers.
 
 \todocontent{say more about the interaction and codas?}
 
@@ -314,10 +312,14 @@ The best fit model of duration in the DECTE speakers can be seen in table \ref{t
 	\centering
 
 	\begin{tabular}{lrrrrrr}
+		\hline
 		& \multicolumn{1}{l}{\bath{}} & \multicolumn{1}{l}{\palm{}} & \multicolumn{1}{l}{\trap{}} & \multicolumn{1}{l}{\TB{} diff} & \multicolumn{1}{l}{\palm{}-\bath{} diff} & \multicolumn{1}{l}{\trap{}-\palm{} diff} \\
+		\hline
 		no coda & 97.72372 & 89.12509 & 75.85776 & -21.87 & -8.60 & -13.27 \\
 		coda & 91.20108 & 114.8154 & 87.09636 & -4.10 & 23.61 & -27.72 \\
+		\hline
 		mean  & 94.4624 & 101.9702 & 81.47706 & -12.99 & 7.51  & -20.49 \\
+		\hline
 	\end{tabular}%
 		\caption{Interaction effects of lexical set and presence of coda on \trap{}, \bath{}, and \palm{} in DECTE speakers} \label{tbl:TBPdurDE-inter}%
 \end{table}%
@@ -325,7 +327,7 @@ The best fit model of duration in the DECTE speakers can be seen in table \ref{t
 
 \begin{figure}[h]
 	\includesvg[width=\textwidth]{../figures/TBP-DE-dur-all.svg}
-	\caption{Duration of \trap{}, \bath{} and \palm{}  in DECTE speakers} \label{fig:TBdurDE}
+	\caption{Duration of \trap{}, \bath{} and \palm{} in DECTE speakers} \label{fig:TBdurDE}
 \end{figure}
 
 \subsection{The Split in CoRP-NE speakers}
@@ -335,11 +337,14 @@ The CoRP-NE speakers show little to no difference in F1 or F2 that could be evid
 	\includegraphics[width=\textwidth]{../figures/TBP-NE-vplot.png}
 	\caption{Vowel Space plot of \trap{},\bath{} and \palm{} in the CoRP-NE speakers} \label{fig:TBPvplotNE}
 \end{figure}
+\todostructure{format: reformat fig:TBdurDE to shorten y-axis and lengthen x-axis}
 
 
 
 \subsubsection{F1 of the CoRP-NE speakers}
-Table \ref{tbl:TBPF1NE} shows the best fit model for the CoRP-NE speakers. There is a three way interaction between lexical set, speaker sex, and speaker age group, which is summarised in table \ref{TBPF1NE-inter}. This table shows that the largest \TB{} difference is found in the Old Male group (which is only one speaker, who has spent more time in the south of England than other speakers)
+Table \ref{tbl:TBPF1NE} shows the best fit model for the CoRP-NE speakers. There is a three way interaction between lexical set, speaker sex, and speaker age group, which is summarised in full in table \ref{TBPF1NE-inter}. However, many of the interaction terms, while they improve the fit of the model (according to cAIC), do not have a t value greater than 2.00; table \ref{TBPF1NE-inter2} shows the interactions excluding these terms. It can be seen in table \ref{TBPF1NE-inter2} that the height difference between \trap{} and \palm{} is larger for the Old Female speakers than for any other speakers. This is caused by a lower \trap{} vowel in that speaker group. All speakers have a \bath{} vowel 53Hz lower than the \palm{} vowel, for most speakers this is a similar position to \trap{}, except for the Old Female speakers for whom it sits between the heights of \trap{} and \palm{}.
+
+Overall it can be concluded from this analysis that the CoRP-Ne speakers do not show a significant \TB{} in acoustic vowel height.
 
 \input{../models/TBP-NE-F1-mod.tex}
 
@@ -360,23 +365,44 @@ Table \ref{tbl:TBPF1NE} shows the best fit model for the CoRP-NE speakers. There
 	\caption{Interaction effects of lexical set, speaker sex and speaker age group on F1 of \trap{}, \bath{}, and \palm{} in CoRP-NE speakers (calculated from interactions in table \ref{tbl:TBPF1NE})} \label{TBPF1NE-inter}%
 \end{table}%
 
+% Table generated by Excel2LaTeX from sheet 'TBPF1NE'
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lrrrrrr}
+		& \multicolumn{1}{l}{\bath{}} & \multicolumn{1}{l}{\palm{}} & \multicolumn{1}{l}{\trap{}} & \multicolumn{1}{l}{\TB{} diff} & \multicolumn{1}{l}{\palm{}-\bath{} diff} & \multicolumn{1}{l}{\trap{}-\palm{} diff} \\
+		\hline
+		Old Female & 814.30 & 761.75 & 893.18 & 78.88 & -52.55 & 131.43 \\
+		Old Male & 814.30 & 761.75 & 837.46 & 23.16 & -52.55 & 75.71 \\
+		Young Female & 814.30 & 761.75 & 819.03 & 4.73  & -52.55 & 57.28 \\
+		Young Male & 814.30 & 761.75 & 823.24 & 8.94  & -52.55 & 61.49 \\
+		\hline
+		Mean  & 814.30 & 761.75 & 843.23 & 28.93 & -52.55 & 81.48 \\
+	\end{tabular}%
+	\caption{Interaction effects of lexical set, speaker sex and speaker age group on F1 of \trap{}, \bath{}, and \palm{} in CoRP-NE speakers (not including terms with t<2.00)} \label{TBPF1NE-inter2}%
+\end{table}%
+
+
 
 
 \begin{figure}[h]
 	\includesvg[width=\textwidth]{../figures/TBP-NE-F1.svg}
-	\caption{F1 of \trap{}, \bath{} and \palm{} in DECTE speakers} \label{fig:TF1NE}
+	\caption{F1 of \trap{}, \bath{} and \palm{} in CoRP-NE speakers} \label{fig:TF1NE}
 \end{figure}
 
 \subsubsection{F2 of the CoRP-NE speakers}
-Table \ref{tbl:TBPF2NE}  shows the best fit model for F2 of the CoRP-NE speakers; the model included a three way interaction between lexical set, speaker sex, and speaker age group, the results of which are shown in table \ref{tbl:TBPF2NEinter}. Despite the interaction effects, it can be seen that the majority of speakers show a very small \TB{} difference (mean = 90Hz). The largest \TB{} difference (and smallest \palm{}-\bath{} difference) is seen in the old male group, which is only one speaker, who has spent more time in the south than the other speakers.
-The F2 values could be interpreted as a \bath{} target that is slightly further back than \trap{}, however, it is also possible that the difference is due to some individual \bath{} words having a \palm{} target. Further analysis on the \bath{} vowel will be presented below.
+Table \ref{tbl:TBPF2NE}  shows the best fit model for F2 of the CoRP-NE speakers; the model included a three way interaction between lexical set, speaker sex, and speaker age group, the results of which are shown in table \ref{tbl:TBPF2NEinter}, and in table \ref{tbl:TBPF2NEinter2} with terms with t<2.00 removed.
+
+Before considering the split in frontness in these speakers it is important to note that the mean \palm{} value for the CoRP-NE speakers is 1119Hz, which is similar to the mean \palm{} vowel in CoRP-SE speakers (1175Hz) and further back than the mean \palm{} vowel of the DECTE speaker (1324Hz). This means that the vowels at the bottom of the vowel space are further apart in both CoRP groups of speakers than in the DECTE speakers. 
+
+Within the interaction effects taken into account (using table \ref{tbl:TBPF2NEinter2}) it can be seen that the main variation within this speaker group is seen in the Old Male group (only one speaker), who has a \trap{} vowel that is further forwards than the other speakers. Despite this, the \TB{} difference is usually 60-80Hz (and approximately 190Hz for that one speakers), and the \PB{} difference is 215Hz demonstrating that these speakers have a \bath{} vowel that is far closer to \trap{} than to \palm{}. The difference of 60-80Hz could be caused by individual \bath{} words being realised with a \palm{} vowel rather than a shift of the entire lexical set. Further analysis of the \bath{} vowel alone can be seen in section \ref{sec:bath} below.
+
 \input{../models/TBP-NE-F2-mod.tex}
 % Table generated by Excel2LaTeX from sheet 'TBPF2NE'
 \begin{table}[htbp]
 	\centering
 	\begin{tabular}{lrrrrr}
 		\hline
-		& \multicolumn{1}{l}{\bath{}} & \multicolumn{1}{l}{\palm{}} & \multicolumn{1}{l}{\trap{}} & \multicolumn{1}{l}{\TB{} difference} & \multicolumn{1}{l}{\palm{}-\bath{} difference} \\
+		& \multicolumn{1}{l}{\bath{}} & \multicolumn{1}{l}{\palm{}} & \multicolumn{1}{l}{\trap{}} & \multicolumn{1}{l}{\TB{} diff} & \multicolumn{1}{l}{\palm{}-\bath{} diff} \\
 		\hline
 		Old Female & 1334.28 & 1119.35 & 1415.13 & 80.85 & -214.93 \\
 		Old Male & 1343.20 & 1152.61 & 1530.58 & 187.38 & -190.59 \\
@@ -389,7 +415,26 @@ The F2 values could be interpreted as a \bath{} target that is slightly further 
 	\label{tbl:TBPF2NEinter}%
 \end{table}%
 
+% Table generated by Excel2LaTeX from sheet 'TBPF2NE'
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lrrrrrr}
+		& \multicolumn{1}{l}{BATH} & \multicolumn{1}{l}{PALM} & \multicolumn{1}{l}{TRAP} & \multicolumn{1}{l}{TB diff} & \multicolumn{1}{l}{PB diff} & \multicolumn{1}{l}{TP diff} \\
+		\hline
+		Old Female & 1334.28 & 1119.35 & 1415.13 & 80.85 & -214.93 & 295.78 \\
+		Old Male & 1334.28 & 1119.35 & 1521.66 & 187.38 & -214.93 & 402.31 \\
+		Young Female & 1334.28 & 1119.35 & 1415.13 & 80.85 & -214.93 & 295.78 \\
+		Young Male & 1334.28 & 1119.35 & 1397.02 & 62.74 & -214.93 & 277.67 \\
+		\hline
+		Mean  & 1334.28 & 1119.35 & 1437.24 & 102.96 & -214.93 & 317.89 \\
+		\hline
+	\end{tabular}%
+	\caption{Interaction effects of lexical set, speaker sex and speaker age group on F2 of \trap{}, \bath{}, and \palm{} in CoRP-NE speakers (not including terms with t<2.00)}
+	\label{tbl:TBPF2NEinter2}%
+\end{table}%
 
+
+% start here %
 
 \subsubsection{Duration of the CoRP-NE speakers}
 Table \ref{tbl:TBPF2NE} shows the best fit model for duration in the CoRP-NE speakers. An interaction effect is seen between lexical set and presence of a coda. This interaction is summarised in table \ref{TBP-NE-dur-mod-inter}. \scs{Trap} and \palm{} are on average 62 msec  apart, and the \palm{} length is closer to the length found in the CoRP-SE speakers, implying that CoRP-NE speaker do not have the shorter \palm{} vowel found in the DECTE speakers. There is a \TB difference present in the words with a coda (-20msec) but none in words without a coda. The difference is less than the difference between \trap{}-\palm{}, and while the mean duration  of the \bath{} (136msec) words is longer than the \trap{} words (126msec) it is not as long as the \palm{} words (189msec). In a form similar to the F2 results above, the duration of the \bath{} values could be interpreted as a target that is slightly further back than \trap{}, or as some individual \bath{} words having a \palm{} target and so pulling the mean duration higher.
@@ -423,9 +468,21 @@ Table \ref{tbl:TBPF2NE} shows the best fit model for duration in the CoRP-NE spe
 	\caption{Duration of \trap{}, \bath{} and \palm{} in CoRP-NE speakers} \label{fig:TBdurNE}
 \end{figure}
 
+\subsection{Conclusions on the nature of the \TB{} split in all three speaker groups}
+As attested in the literature, the analysis above has confirmed that the major feature of the \TB{} split is a distinction in vowel frontness, as shown by an F2 difference, and duration. The \TB{} split is the \bath{} words being found in a \palm{}-like position as opposed to a \trap{}-like position (this is a change, as outlined in chapter \notinsubfile{\ref{ch:LitReviewSocio}} \onlyinsubfile{2}, but as a phonemic split is stable in the South of England).
+It was was found that The CoRP-SE speakers have the following difference between \trap{} and \bath{}:
+\begin{itemize}
+	\item F1: +98Hz (\bath{} higher)
+	\item F2: +363Hz (\bath{} less front)
+	\item duration: -28msec (\bath{} longer)
+\end{itemize}
+There are two points of variation that impact analysis of the split but may not be required characteristics of it. First, in the CoRP-SE speakers, who have a clear \TB{} split in F2 and duration, there is the potential for variation in the height of \trap{}\todoreference{Fabricius?}. In this speaker group an F1 difference is found between \trap{} and \bath{}/\palm{}, which may be an indicator of the split but is not focussed on as a primary characteristic. Figure \ref{fig:TBPvplotSE} shows that the F1 variation in \trap{} is larger than in either of \bath{} or \palm{}. Secondly, in the DECTE speakers \palm{} is further forward than than in the CoRP-SE speakers, if the CoRP-NE speakers showed a similar position it would impact analysis of the split as a movement from a \trap{}-like position to a \palm{}-like position.
 
+The DECTE speakers do not show a split, there is a statistically significant but not linguistically meaningful meaningful F1 difference of +1HZ and F2 difference of +24Hz, and a duration difference of +13msec.
 
-\section{\scs{Bath} vowel alone}
+The CoRP-NE speakers broadly pattern with the DECTE speakers, though with some important differences. They show an F1 difference of +28Hz, an F2 difference of 60-80Hz, and a duration difference of -20Hz (if the vowel is followed by a coda). However, this speaker group is not identical to the DECTE speakers. The \palm{} vowel is closer to the CoRP-SE speakers (possibly an effect of education but beyond the scope of this discussion), and there is some variation within the \bath{} vowel, as seen by a higher F2 and duration difference than in the DECTE speakers. This difference will be discussed in the analysis of the \bath{} vowel below.
+
+\section{\scs{Bath} vowel alone} \label{sec:bath}
 
 \begin{figure}[h]
 	\includegraphics[width=\textwidth]{../figures/B-vplot.png}
@@ -435,36 +492,127 @@ Table \ref{tbl:TBPF2NE} shows the best fit model for duration in the CoRP-NE spe
 
 
 \subsection{F1}
-The best fit model of \bath{} in all speaker groups is shown in table \ref{tbl:BF1}. There is a three way interaction between sex, age group and corpus, shown in table \ref{tbl:BF1-inter}. It can be seen that overall the CoRP-NE speakers have a \bath{} vowel at 828Hz, very similar to the height of the DECTE speakers (837Hz), whereas the CoRP-SE speakers have a higher vowel, at 762Hz. While there is variation between male and female, and old and young, none of this variation reaches overlap between the lower vowels (CoRP-NE and DECTE), and the higher vowels (CoRP-SE).
+The best fit model of \bath{} in all speaker groups is shown in table \ref{tbl:BF1}. There is a three way interaction between sex, age group and corpus, shown in table \ref{tbl:BF1-inter}. It can be seen that overall the CoRP-NE speakers have a \bath{} vowel at 828Hz, very similar to the height of the DECTE speakers (837Hz), whereas the CoRP-SE speakers have a higher vowel, at 762Hz. While there is variation between male and female, and old and young, none of this variation reaches overlap between the lower vowels (CoRP-NE and DECTE), and the higher vowels (CoRP-SE). Despite height not acting as the primary indicator of historical \bath{} movement, these values align with the predicted \trap{} and \palm{} positions in section \ref{sec:TBSplit} respectively. The difference further defends that in all north-eastern speakers (DECTE and CoRP) the \bath{} vowel has not moved and remains in the same place as \trap{} whereas in the CoRP-SE speakers it has moved to the \palm{} position.
 
 \input{../models/B-F1-mod.tex}
 
+% Table generated by Excel2LaTeX from sheet 'BF1'
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lrrrr}
+		& \multicolumn{1}{l}{CoRP-NE} & \multicolumn{1}{l}{DECTE-NE} & \multicolumn{1}{l}{CoRP-SE} & \multicolumn{1}{l}{Mean} \\
+		Old Female & 815.06 & 876.24 & 746.87 & 812.72 \\
+		Old Male & 817.14 & 837.62 & 768.80 & 807.85 \\
+		Young Female & 856.02 & 838.66 & 766.83 & 820.50 \\
+		Young Male & 832.11 & 791.62 & 755.00 & 792.91 \\
+		Mean  & 830.08 & 836.04 & 759.38 & 808.50 \\
+	\end{tabular}%
+	\caption{F1 of \bath{} vowel for all three speaker groups}
+	\label{tbl:BF1-inter}%
+\end{table}%
 
 
 
-\subsection{F2}
+
+
+\subsection{F2} \label{subsec:bathF2}
 Table \ref{tbl:BF2} shows the best fit model for F2 of the vowel in \bath{} words in all three speaker groups. Modelling the \bath{} words alone shows that the CoRP-NE speakers have a vowel with F2 between the CoRP-SE speakers (-144Hz lower) and DECTE speakers (173Hz higher). From this model it is difficult to tell if this is truly a vowel with a mean in between or the effect of both positions existing with the set of tokens. 
 
-\input{../models/B-F2-mod.tex}
+\input{../models/B-F2-mod.tex} 
+
+\begin{figure}[h]
+\includesvg[width=\textwidth]{../figures/TBP-NE-F2.svg}
+	\caption{\bath{}} \label{fig:TBPNEF2}
+\end{figure}
 
 \begin{figure}[h]
 	\includesvg[width=\textwidth]{../figures/B-F2.svg}
-	\caption{F2 of \bath{}} \label{fig:BF2NE}
+	\caption{\bath{}} \label{fig:BF2}
+\end{figure}
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/TBP-F2.svg}
+	\caption{\bath{}} \label{fig:TBPF2}
 \end{figure}
 
 
-
-
 \subsection{Duration}
+Table \ref{tbl:Blogdur} shows the best fit model for the duration of the \bath{} vowel, and the interaction effect is summarised in table \ref{tbl:Blogdur-inter}. These show that the \bath{} vowel duration is not patterning in the same way as F2, instead we see that the CoRP-NE speakers have a similar (though not identical in value or coda interaction) duration to CoRP-SE speakers, whereas DECTE speakers have a shorter duration. These differences are not large but considering the history of the \TB{} split, which began with a change in length, it is possible that this difference is reflective of the beginning a split in the CoRP-NE speaker group.
+
+\input{../models/B-logdur-mod.tex}
+
+% Table generated by Excel2LaTeX from sheet 'Blogdur'
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lrrr}
+		\hline
+		& \multicolumn{1}{l}{CoRP-NE} & \multicolumn{1}{l}{CoRP-SE} & \multicolumn{1}{l}{DECTE} \\
+		\hline
+		has\_codaFALSE & 141.2538 & 141.2538 & 107.1519 \\
+		has\_codaTRUE & 134.8963 & 151.3561 & 109.6478 \\
+		Mean  & 138.075 & 146.3049 & 108.3999 \\
+		\hline
+	\end{tabular}%
+		\caption{Interaction effects on the duration of \bath{} in all three speaker groups (calculated from log10(duration) in table \ref{tbl:Blogdur})} \label{tbl:Blogdur-inter}%
+\end{table}%
+
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/B-dur-all.svg}
+	\caption{\bath{}} \label{fig:Bdurall}
+\end{figure}
+
+\section{Discussion and Conclusion}
+The parameters of the \TB{} split in the CoRP-SE speakers are clearly canonical, supporting defining the \TB{} split as found in F2 and duration (with some impact of F1). DECTE speakers clearly do not show a \TB{} split, with no significant difference in F2 or duration between \trap{} and \bath{}.
+
+
+In analysis of F2 and duration of the \bath{} vowels that it is difficult to tell if the variation seen in the CoRP-NE speakers is the result of a different \bath{} target or individual speakers, or words behaving differently. 
+At this point it is important to consider the linguistic status of the variables being considered, not just the modelled values. Two relevant points about the \bath{} vowel at this point are:
+\begin{enumerate}
+	\item A \bath{} realisation between \trap{} and \palm{} is not attested in the literature
+	\item The \TB{} split is a move of a subset of the \trap{} lexical set (words in pre-fricative and pre-nasal environment) from one existing target (a low front vowel) to another existing target (\textit{long} low vowel back vowel, i.e. the \palm{} position). Speakers are not creating a new vowel in their inventory so there is no reason for an intermediate vowel quality to appear.
+\end{enumerate}
+Therefore, unlike what is seen in the \strutt vowel in chapter \onlyinsubfile{5}\notinsubfile{\ref{ch:FS}}, it is unlikely that CoRP-NE speakers are creating a new split.
+
+In addition to the model of F2 of \bath{} in section \ref{subsec:bathF2}, it is possible to understand this data further by visualising the vowel positions and including individual speaker means. Figure \ref{fig:TBPNEF2} (reproduced below), split by speaker sex to aid in seeing individual speakers, not to show any particular pattern) shows the CoRP-NE speakers alone and looking at the speaker means and connections between them it can be seen that \bath{} consistently patterns with \trap{}, there is no evidence of a \TB{} split in this speakers.
+
+\begin{figure}[H]
+	\includesvg[width=\textwidth]{../figures/TBP-NE-F2.svg}
+	Figure \ref{fig:TBPNEF2}
+\end{figure}
+
+Considering figure \ref{fig:BF2} (reproduced below), it is clear why the model shows a \bath{} value for CoRP-NE that is in between those for CoRP-SE and DECTE. The CoRP-NE \bath{} vowels are wider in distribution than either of the other two speaker groups, with some overlap in both direction, implying that some speakers in CoRP-NE produce \bath{} words with a \palm{}-like realisation.
+
+\begin{figure}[H]
+	\includesvg[width=\textwidth]{../figures/B-F2.svg}
+	Figure \ref{fig:BF2}
+\end{figure}
+
+However, a figure that looks at all the data together provides a slightly different perspective. Figure \ref{fig:TBPF2} (also reproduced below) shows that within the CoRP-NE speaker group there exist \bath{} vowels that are in overlap with the CoRP-SE \bath{} and \palm{} position. For example see the lowest F2 value for \bath{} from CoRP-NE. However, if that speaker is taken as an example, they show a \palm{} vowel with a lower F2 again, demonstrating that their \bath{} is not produced in their \palm{} position.
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{../figures/TBP-F2.svg}
+	Figure \ref{fig:TBPF2}
+\end{figure}
+
+It is possible that the spread of F2 values for CoRP-NE speakers is due to individual words. It is known that the \TB{} split is not consistent within the pre-fricative context, even in southern speakers who maintain the split (see chapter \notinsubfile{\ref{ch:LitReviewSocio}} \onlyinsubfile{2}), e.g. \textit{gas} vs \textit{grass}. In CoRP-NE speakers we may be seeing the effect of some '\quotesingle{\bath{}} words remaining in the \trap{} position, but others moving to the \palm{} position. However, the data set is not large enough to be able to take reliable word means that can explain the pattern of this variation.
+
+The variation in the CoRP-NE group is further seen in vowel duration where the mean of \bath{} in CoRP-NE is closer to CoRP-SE than DECTE suggesting that pre-fricative lengthening may be occurring in the CoRP-NE speakers, which historically was the precursor to the split in the South of England, and hence could be understood as the beginning of a split happening in this speech community.
+
+In conclusion, broadly CoRP-NE speakers behave in a regional manner with respect to the \TB{} split. However, there are some indicators of variation due to the mixed input these speakers receive. There is indication of a \palm{}-like quality in some words, and also of a mean longer vowel length than found in DECTE.
 
 
 
+
+
+
+
 	
 	
 	
 	
 	
-	
+	 
 	\pagebreak
 	\bibliography{../../../References/methodology,
 		../../../References/rRP

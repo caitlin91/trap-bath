@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  8 MAR 2022 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  31 MAY 2022 18:06
 entering extended mode
 **./Analysis-TB.tex
 (Analysis-TB.tex
@@ -693,7 +693,6 @@ File: puenc.def 2021-06-05 v7.00l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `draft' set `true' on input line 4073.
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
 Package hyperref Info: Hyper index ON on input line 4200.
@@ -1949,12 +1948,12 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 lang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Info: Redefining \rm on input line 148.
-LaTeX Info: Redefining \sf on input line 149.
-LaTeX Info: Redefining \tt on input line 150.
-LaTeX Info: Redefining \bf on input line 151.
-LaTeX Info: Redefining \sl on input line 153.
-LaTeX Info: Redefining \sc on input line 154.
+LaTeX Info: Redefining \rm on input line 149.
+LaTeX Info: Redefining \sf on input line 150.
+LaTeX Info: Redefining \tt on input line 151.
+LaTeX Info: Redefining \bf on input line 152.
+LaTeX Info: Redefining \sl on input line 154.
+LaTeX Info: Redefining \sc on input line 155.
 ))
 
 LaTeX Warning: Unused global option(s):
@@ -2146,92 +2145,271 @@ LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 16.41594pt on input line 185.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 188.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 188.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 11.39996pt on input line 188.
 
 
-Package natbib Warning: Citation `Labov2006' on page 2 undefined on input line 
-190.
+Package natbib Warning: Citation `Labov2006c' on page 2 undefined on input line
+ 190.
 
 [2
 
 ]
-<../figures/TBP-SE-vplot.png, id=69, 433.62pt x 289.08pt>
-LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
-199.
+<../figures/TBP-SE-vplot.png, id=75, 433.62pt x 289.08pt>
+File: ../figures/TBP-SE-vplot.png Graphic file (type png)
+<use ../figures/TBP-SE-vplot.png>
+Package pdftex.def Info: ../figures/TBP-SE-vplot.png  used on input line 201.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
 
-(C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jk
-ptt.fd
-File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
-)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] (../models/TBP-SE-F1-mod.tex)
-<./svg-inkscape/TBP-SE-F1_svg-tex.pdf, id=80, 433.62pt x 289.08pt>
-
+Package svg Info: Last page of `./svg-inkscape/TBP-SE-F1_svg-tex.pdf' is 2 on i
+nput line 227.
+ (svg-inkscape/TBP-SE-F1_svg-tex.pdf_tex
+<./svg-inkscape/TBP-SE-F1_svg-tex.pdf, id=87, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-SE-F1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-F1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-F1_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-SE-F1_svg-tex.pdf, id=88, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-SE-F1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-F1_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-F1_svg-tex.pdf , page2 used on i
+nput line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5] [6] (../models/TBP-SE-F2-mod.tex)
-<./svg-inkscape/TBP-SE-F2_svg-tex.pdf, id=102, 433.62pt x 289.08pt>
+[4 <../figures/TBP-SE-vplot.png>] [5] [6 <./svg-inkscape/TBP-SE-F1_svg-tex.pdf>
+ <./svg-inkscape/TBP-SE-F1_svg-tex.pdf
 
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-SE-F1_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] (../models/TBP-SE-F2-mod.tex)
+Package svg Info: Last page of `./svg-inkscape/TBP-SE-F2_svg-tex.pdf' is 2 on i
+nput line 237.
+ (svg-inkscape/TBP-SE-F2_svg-tex.pdf_tex
+<./svg-inkscape/TBP-SE-F2_svg-tex.pdf, id=119, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-SE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-F2_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-SE-F2_svg-tex.pdf, id=120, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-SE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-F2_svg-tex.pdf , page2 used on i
+nput line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7
 
 ] (../models/TBP-SE-logdur-mod.tex)
-
-LaTeX Warning: Reference `tbl:TBPdurSE' on page 8 undefined on input line 244.
-
-
-Overfull \hbox (185.91063pt too wide) in paragraph at lines 249--258
- [][] |
+Overfull \hbox (41.59976pt too wide) in paragraph at lines 251--260
+ [][] 
  []
 
-<./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, id=113, 433.62pt x 289.08pt>
+Package svg Info: Last page of `./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf' is 4
+ on input line 269.
+(svg-inkscape/TBP-SE-dur-all_svg-tex.pdf_tex
+<./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, id=133, page=1, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, id=134, page=2, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf , page2 used
+ on input line 62.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, id=135, page=3, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf , page3 used
+ on input line 68.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, id=136, page=4, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf , page4 used
+ on input line 74.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9] [10]
-<../figures/TBP-DE-vplot.png, id=132, 433.62pt x 289.08pt>
- (../models/TBP-DE-F1-mod.tex)
-<./svg-inkscape/TBP-DE-F1_svg-tex.pdf, id=134, 433.62pt x 289.08pt>
+[8 <./svg-inkscape/TBP-SE-F2_svg-tex.pdf> <./svg-inkscape/TBP-SE-F2_svg-tex.pdf
 
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-SE-F2_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [9] [10 <./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf> <./svg-inkscape/TBP-SE-d
+ur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-SE-dur-all_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
+<../figures/TBP-DE-vplot.png, id=180, 433.62pt x 289.08pt>
+File: ../figures/TBP-DE-vplot.png Graphic file (type png)
+<use ../figures/TBP-DE-vplot.png>
+Package pdftex.def Info: ../figures/TBP-DE-vplot.png  used on input line 278.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+ (../models/TBP-DE-F1-mod.tex)
+
+Package svg Warning: Since the encountered filedate of file
+(svg)                `./svg-inkscape/TBP-NE-F1_svg-tex.pdf_tex' is newer than 
+(svg)                `./svg-inkscape/TBP-NE-F1_svg-tex.pdf' it's supposed that
+(svg)                you customized this file. To avoid an accidental
+(svg)                overwriting of this file, the Inkscape export
+(svg)                won't be done. If you want to overwrite the
+(svg)                existing file please choose the parameter
+(svg)                `inkscape=force' on input line 289.
+
+Package svg Info: Last page of `./svg-inkscape/TBP-NE-F1_svg-tex.pdf' is 2 on i
+nput line 289.
+(svg-inkscape/TBP-NE-F1_svg-tex.pdf_tex
+<./svg-inkscape/TBP-NE-F1_svg-tex.pdf, id=183, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-F1_svg-tex.pdf, id=184, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F1_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf , page2 used on i
+nput line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11
 
-] [12] (../models/TBP-DE-F2-mod.tex)
-<./svg-inkscape/TBP-DE-F2_svg-tex.pdf, id=149, 433.62pt x 289.08pt>
+ <../figures/TBP-DE-vplot.png>] [12 <./svg-inkscape/TBP-NE-F1_svg-tex.pdf> <./s
+vg-inkscape/TBP-NE-F1_svg-tex.pdf
 
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-F1_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] (../models/TBP-DE-F2-mod.tex)
+Package svg Info: Last page of `./svg-inkscape/TBP-DE-F2_svg-tex.pdf' is 2 on i
+nput line 299.
+ (svg-inkscape/TBP-DE-F2_svg-tex.pdf_tex
+<./svg-inkscape/TBP-DE-F2_svg-tex.pdf, id=209, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-DE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-DE-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-DE-F2_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-DE-F2_svg-tex.pdf, id=210, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-DE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-DE-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-DE-F2_svg-tex.pdf , page2 used on i
+nput line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13
 
 ] (../models/TBP-DE-logdur-mod.tex)
-Overfull \hbox (41.59962pt too wide) in paragraph at lines 316--322
- [][] |
+Overfull \hbox (41.59962pt too wide) in paragraph at lines 314--324
+ [][] 
  []
 
-<./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, id=160, 433.62pt x 289.08pt>
+Package svg Info: Last page of `./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf' is 4
+ on input line 329.
+(svg-inkscape/TBP-DE-dur-all_svg-tex.pdf_tex
+<./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, id=222, page=1, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, id=223, page=2, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf , page2 used
+ on input line 64.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, id=224, page=3, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf , page3 used
+ on input line 70.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, id=225, page=4, 433.62pt x 289.08pt
+>
+File: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf , page4 used
+ on input line 78.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15] [16]
-<../figures/TBP-NE-vplot.png, id=180, 289.08pt x 289.08pt>
+[14 <./svg-inkscape/TBP-DE-F2_svg-tex.pdf> <./svg-inkscape/TBP-DE-F2_svg-tex.pd
+f
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-DE-F2_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [15] [16 <./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf> <./svg-inkscape/TBP-DE-
+dur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-DE-dur-all_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
+<../figures/TBP-NE-vplot.png, id=269, 289.08pt x 289.08pt>
+File: ../figures/TBP-NE-vplot.png Graphic file (type png)
+<use ../figures/TBP-NE-vplot.png>
+Package pdftex.def Info: ../figures/TBP-NE-vplot.png  used on input line 337.
+(pdftex.def)             Requested size: 448.13095pt x 448.15317pt.
  [17
 
-] (../models/TBP-NE-F1-mod.tex)
-Overfull \hbox (35.20453pt too wide) in paragraph at lines 349--360
- [][] |
+ <../figures/TBP-NE-vplot.png>] (../models/TBP-NE-F1-mod.tex)
+Overfull \hbox (35.20453pt too wide) in paragraph at lines 354--365
+ [][] 
+ []
+
+
+Overfull \hbox (35.20453pt too wide) in paragraph at lines 371--381
+ [][] 
  []
 
 
@@ -2242,81 +2420,450 @@ Package svg Warning: Since the encountered filedate of file
 (svg)                overwriting of this file, the Inkscape export
 (svg)                won't be done. If you want to overwrite the
 (svg)                existing file please choose the parameter
-(svg)                `inkscape=force' on input line 366.
+(svg)                `inkscape=force' on input line 388.
 
-<./svg-inkscape/TBP-NE-F1_svg-tex.pdf, id=190, 433.62pt x 289.08pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18] (../models/TBP-NE-F2-mod.tex)
-Overfull \hbox (36.50847pt too wide) in paragraph at lines 377--388
- [][] |
- []
-
-[19] [20] (../models/TBP-NE-dur-mod.tex)
-Overfull \hbox (41.59962pt too wide) in paragraph at lines 407--416
- [][] |
- []
-
-<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=222, 433.62pt x 289.08pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21]
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 16.41594pt on input line 428.
-<../figures/B-vplot.png, id=228, 289.08pt x 289.08pt>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22] [23]
-
-LaTeX Warning: Reference `tbl:BF1-inter' on page 24 undefined on input line 438
-.
-
-(../models/B-F1-mod.tex) (../models/B-F2-mod.tex)
-<./svg-inkscape/B-F2_svg-tex.pdf, id=241, 433.62pt x 289.08pt>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[24
-
-] [25] [26
-
-] (Analysis-TB.bbl
-chapter without number
+Package svg Info: Last page of `./svg-inkscape/TBP-NE-F1_svg-tex.pdf' is 2 on i
+nput line 388.
+(svg-inkscape/TBP-NE-F1_svg-tex.pdf_tex
+File: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+File: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F1_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F1_svg-tex.pdf , page2 used on i
+nput line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
 )
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18] [19] (../models/TBP-NE-F2-mod.tex) [20
+
+] (../models/TBP-NE-dur-mod.tex)
+Overfull \hbox (41.59962pt too wide) in paragraph at lines 452--461
+ [][] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/TBP-NE-dur_svg-tex.pdf' is 7 on 
+input line 467.
+(svg-inkscape/TBP-NE-dur_svg-tex.pdf_tex
+<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=317, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-dur_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf , page1 used on 
+input line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=318, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-dur_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf , page2 used on 
+input line 58.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=319, page=3, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-dur_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf , page3 used on 
+input line 60.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=320, page=4, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-dur_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf , page4 used on 
+input line 62.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=321, page=5, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-dur_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf , page5 used on 
+input line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=322, page=6, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-dur_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf , page6 used on 
+input line 70.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-dur_svg-tex.pdf, id=323, page=7, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-dur_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-dur_svg-tex.pdf , page7 used on 
+input line 77.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21] [22] [23 <./svg-inkscape/TBP-NE-dur_svg-tex.pdf> <./svg-inkscape/TBP-NE-du
+r_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-dur_svg-tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-dur_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-dur_svg-tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-dur_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-dur_svg-tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-dur_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-dur_svg-tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-dur_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-dur_svg-tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-dur_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-dur_svg-tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>]
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 13.67995pt on input line 471.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
+75.
+
+(C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ph
+v.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 475.
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 16.41594pt on input line 485.
+<../figures/B-vplot.png, id=374, 289.08pt x 289.08pt>
+File: ../figures/B-vplot.png Graphic file (type png)
+<use ../figures/B-vplot.png>
+Package pdftex.def Info: ../figures/B-vplot.png  used on input line 488.
+(pdftex.def)             Requested size: 448.13095pt x 448.15317pt.
+ [24
+
+] [25 <../figures/B-vplot.png>] (../models/B-F1-mod.tex) [26]
+(../models/B-F2-mod.tex)
+Package svg Info: Last page of `./svg-inkscape/TBP-NE-F2_svg-tex.pdf' is 5 on i
+nput line 524.
+ (svg-inkscape/TBP-NE-F2_svg-tex.pdf_tex
+<./svg-inkscape/TBP-NE-F2_svg-tex.pdf, id=397, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-F2_svg-tex.pdf, id=398, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page2 used on i
+nput line 58.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-F2_svg-tex.pdf, id=399, page=3, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page3 used on i
+nput line 60.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-F2_svg-tex.pdf, id=400, page=4, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page4 used on i
+nput line 64.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/TBP-NE-F2_svg-tex.pdf, id=401, page=5, 433.62pt x 289.08pt>
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page5 used on i
+nput line 77.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package svg Info: Last page of `./svg-inkscape/B-F2_svg-tex.pdf' is 2 on input 
+line 529.
+(svg-inkscape/B-F2_svg-tex.pdf_tex
+<./svg-inkscape/B-F2_svg-tex.pdf, id=403, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/B-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/B-F2_svg-tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/B-F2_svg-tex.pdf, id=404, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/B-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/B-F2_svg-tex.pdf , page2 used on input 
+line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package svg Info: Last page of `./svg-inkscape/TBP-F2_svg-tex.pdf' is 7 on inpu
+t line 534.
+(svg-inkscape/TBP-F2_svg-tex.pdf_tex
+<./svg-inkscape/TBP-F2_svg-tex.pdf, id=406, page=1, 867.24pt x 578.16pt>
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+<./svg-inkscape/TBP-F2_svg-tex.pdf, id=407, page=2, 867.24pt x 578.16pt>
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page2 used on inpu
+t line 58.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+<./svg-inkscape/TBP-F2_svg-tex.pdf, id=408, page=3, 867.24pt x 578.16pt>
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page3 used on inpu
+t line 60.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+<./svg-inkscape/TBP-F2_svg-tex.pdf, id=409, page=4, 867.24pt x 578.16pt>
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page4 used on inpu
+t line 62.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+<./svg-inkscape/TBP-F2_svg-tex.pdf, id=410, page=5, 867.24pt x 578.16pt>
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page5 used on inpu
+t line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+<./svg-inkscape/TBP-F2_svg-tex.pdf, id=411, page=6, 867.24pt x 578.16pt>
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page6 used on inpu
+t line 70.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+<./svg-inkscape/TBP-F2_svg-tex.pdf, id=412, page=7, 867.24pt x 578.16pt>
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page7 used on inpu
+t line 83.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27] [28 <./svg-inkscape/TBP-NE-F2_svg-tex.pdf> <./svg-inkscape/TBP-NE-F2_svg-t
+ex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-F2_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-F2_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-F2_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-NE-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-NE-F2_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [29 <./svg-inkscape/B-F2_svg-tex.pdf> <./svg-inkscape/B-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/B-F2_svg-tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] [30 <./svg-inkscape/TBP-F2_svg-tex.pdf> <./svg-inkscape/TBP-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-F2_svg-tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-F2_svg-tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-F2_svg-tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-F2_svg-tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-F2_svg-tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TBP-F2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/TBP-F2_svg-tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] (../models/B-logdur-mod.tex)
+Package svg Info: Last page of `./svg-inkscape/B-dur-all_svg-tex.pdf' is 4 on i
+nput line 561.
+ (svg-inkscape/B-dur-all_svg-tex.pdf_tex
+<./svg-inkscape/B-dur-all_svg-tex.pdf, id=502, page=1, 433.62pt x 289.08pt>
+File: ./svg-inkscape/B-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-dur-all_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/B-dur-all_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/B-dur-all_svg-tex.pdf, id=503, page=2, 433.62pt x 289.08pt>
+File: ./svg-inkscape/B-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-dur-all_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/B-dur-all_svg-tex.pdf , page2 used on i
+nput line 64.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/B-dur-all_svg-tex.pdf, id=504, page=3, 433.62pt x 289.08pt>
+File: ./svg-inkscape/B-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-dur-all_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/B-dur-all_svg-tex.pdf , page3 used on i
+nput line 70.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+<./svg-inkscape/B-dur-all_svg-tex.pdf, id=505, page=4, 433.62pt x 289.08pt>
+File: ./svg-inkscape/B-dur-all_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-dur-all_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/B-dur-all_svg-tex.pdf , page4 used on i
+nput line 78.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31
+
+] [32 <./svg-inkscape/B-dur-all_svg-tex.pdf> <./svg-inkscape/B-dur-all_svg-tex.
+pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/B-dur-all_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/B-dur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/B-dur-all_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/B-dur-all_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/B-dur-all_svg-tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
+Package svg Info: Last page of `./svg-inkscape/TBP-NE-F2_svg-tex.pdf' is 5 on i
+nput line 580.
+ (svg-inkscape/TBP-NE-F2_svg-tex.pdf_tex
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page2 used on i
+nput line 58.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page3 used on i
+nput line 60.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page4 used on i
+nput line 64.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+File: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-NE-F2_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/TBP-NE-F2_svg-tex.pdf , page5 used on i
+nput line 77.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+)
+Package svg Info: Last page of `./svg-inkscape/B-F2_svg-tex.pdf' is 2 on input 
+line 587.
+ (svg-inkscape/B-F2_svg-tex.pdf_tex
+File: ./svg-inkscape/B-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/B-F2_svg-tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+File: ./svg-inkscape/B-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/B-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/B-F2_svg-tex.pdf , page2 used on input 
+line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.77025pt.
+) [33]
+Package svg Info: Last page of `./svg-inkscape/TBP-F2_svg-tex.pdf' is 7 on inpu
+t line 594.
+ (svg-inkscape/TBP-F2_svg-tex.pdf_tex
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page2 used on inpu
+t line 58.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page3 used on inpu
+t line 60.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page4 used on inpu
+t line 62.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page5 used on inpu
+t line 66.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page6 used on inpu
+t line 70.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+File: ./svg-inkscape/TBP-F2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TBP-F2_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/TBP-F2_svg-tex.pdf , page7 used on inpu
+t line 83.
+(pdftex.def)             Requested size: 448.13095pt x 298.75702pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34] [35] (Analysis-TB.bbl
+chapter without number
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
+6.
+
+(C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jk
+ptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+))
 
 Package natbib Warning: There were undefined citations.
 
-[27
+[36
 
 ] (Analysis-TB.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Analysis-TB.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34368 strings out of 478864
- 665178 string characters out of 2843410
- 1377235 words of memory out of 3000000
- 51466 multiletter control sequences out of 15000+600000
- 456293 words of font info for 93 fonts, out of 8000000 for 9000
+ 34475 strings out of 478864
+ 672736 string characters out of 2843410
+ 1380977 words of memory out of 3000000
+ 51507 multiletter control sequences out of 15000+600000
+ 462451 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,125p,10693b,920s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,20n,125p,10693b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base
 /8r.enc}<C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/kpfonts/jkpttmn8a.pfb><C:/Users/Caitlin Halfacre/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Caitlin Halfacre/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Caitlin Halfac
-re/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Analysis-TB.pdf (27 pages, 111695 bytes).
+blic/kpfonts/jkpmi.pfb><C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/Caitlin Halfacre/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb><C:/Users/Caitlin Ha
+lfacre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Us
+ers/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
+r8a.pfb><C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/helvetic/uhvro8a.pfb>
+Output written on Analysis-TB.pdf (36 pages, 2306494 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 660 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 409 words of extra memory for PDF output out of 10000 (max. 10000000)
 

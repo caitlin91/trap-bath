@@ -109,6 +109,7 @@ print(
 
 
 ### F2 -------------
+sd((data_TBP_statsSE %>% filter(lexSet=="PALM"))$norm_F2)
 TBP_SE_F2.full.mod <- lmer(norm_F2 ~ 
                             lexSet+
                             sexSum +
@@ -318,6 +319,7 @@ print(
 
 
 ### F2 -------------
+sd((data_TBP_statsDE %>% filter(lexSet=="PALM"))$norm_F2)
 TBP_DE_F2.full.mod <- lmer(norm_F2 ~ 
                              lexSet+
                              sexSum +
@@ -472,6 +474,7 @@ print(
 
 
 ### F2 -------------
+sd((data_TBP_statsNE %>% filter(lexSet=="PALM"))$norm_F2)
 TBP_NE_F2.full.mod <- lmer(norm_F2 ~ 
                              lexSet*
                              sexSum*
@@ -579,6 +582,17 @@ contrasts(data_B_stats$styleSum) <- contr.sum(3)
 contrasts(data_B_stats$preSeg_smallSum) <- contr.sum(6)
 contrasts(data_B_stats$has_codaSum) <- contr.sum(2)
 contrasts(data_B_stats$folVcSum) <- contr.sum(2)
+
+data_B_statsNE <- data_B_stats %>% 
+  filter(corpus == "CoRP-NE") %>% 
+  droplevels()
+contrasts(data_B_statsNE$sexSum) <- contr.sum(2)
+contrasts(data_B_statsNE$ageGroupSum) <- contr.sum(2)
+contrasts(data_B_statsNE$styleSum) <- contr.sum(3)
+contrasts(data_B_statsNE$preSeg_smallSum) <- contr.sum(6)
+contrasts(data_B_statsNE$has_codaSum) <- contr.sum(2)
+contrasts(data_B_stats$folVcSum) <- contr.sum(2)
+
 ## F1 ####
 B_F1.full.mod <- lmer(norm_F1 ~
                         relevel(corpus,"CoRP-NE")*ageGroup*
@@ -672,3 +686,96 @@ print(
   include.rownames=FALSE,
   file="models/B-F2-mod.tex"
 )
+
+## Duration ####
+B_logdur.full.mod <- lmer(log_dur_ms ~ 
+                            relevel(corpus,"CoRP-NE")*has_coda +
+                                 sexSum +
+                                 ageGroupSum +
+                                 freq.zipf_z +
+                                 styleSum +
+                                 # has_codaSum +
+                                 time_z +
+                                 folVcSum +
+                                 # (1 + styleSum | id) +
+                                 # (1+time_z|id) +
+                                 (1|id) +
+                                 (1|word)
+                               , data = data_B_stats)
+B_logdur.full.mod %>% tidy()
+cAIC(B_logdur.full.mod)
+B_logdur.step <- stepcAIC(B_logdur.full.mod)
+B_logdur.step
+B_logdur.step.og <- lmer(log_dur_ms ~ 
+                           relevel(corpus,"CoRP-NE")*has_coda +
+                           sexSum +
+                           ageGroupSum +
+                           freq.zipf_z +
+                           styleSum +
+                           # has_codaSum +
+                           time_z +
+                           folVcSum +
+                           # (1 + styleSum | id) +
+                           # (1+time_z|id) +
+                           (1|id) +
+                           (1|word)
+                         , data = data_B_stats)
+B_logdur.step.mod <- B_logdur.step.og %>% 
+  tidy()
+print(B_logdur.step.mod, n=nrow(B_logdur.step.mod))
+
+print(
+  xtable(
+    (B_logdur.step.mod %>%
+       filter(effect=="fixed") %>%
+       dplyr::select(term, estimate, statistic) %>%
+       dplyr::rename(tvalue = statistic) %>% 
+       dplyr::rename(fixedeffect = term)),
+    caption = "Linear Mixed Effects Model of log10(duration) of \\textsc{bath}, in all three speaker groups \\label{tbl:Blogdur}"),
+  include.rownames=FALSE,
+  file="models/B-logdur-mod.tex")
+
+## BATH-NE ####
+B_NE_F2.full.mod <- lmer(norm_F2 ~
+                        ageGroupSum +
+                        freq.zipf_z +
+                        styleSum +
+                        has_codaSum +
+                        time_z+
+                        styleSum +
+                        # (1 + styleSum | id) +
+                        # (1+time_z|id) +
+                        (1|id) +
+                        (1|word)
+                      , data = data_B_statsNE)
+B_NE_F2.full.mod %>% tidy()
+cAIC(B_NE_F2.full.mod)
+B_NE_F2.full.step <- stepcAIC(B_NE_F2.full.mod)
+B_NE_F2.full.step
+B_NE_F2.full.step.og <- lmer(norm_F2 ~
+                               ageGroupSum +
+                               freq.zipf_z +
+                               styleSum +
+                               has_codaSum +
+                               time_z+
+                               styleSum +
+                               # (1 + styleSum | id) +
+                               # (1+time_z|id) +
+                               (1|id) +
+                               (1|word)
+                             , data = data_B_statsNE)
+B_NE_F2.full.step.mod <- B_NE_F2.full.step.og %>% 
+  tidy()
+print(B_NE_F2.full.step.mod, n=nrow(B_NE_F2.full.step.mod))
+
+# print(
+#   xtable(
+#     (B_F2.full.step.mod %>%
+#        filter(effect=="fixed") %>%
+#        dplyr::select(term, estimate, statistic) %>%
+#        dplyr::rename(tvalue = statistic) %>% 
+#        dplyr::rename(fixedeffect = term)),
+#     caption = "Linear Mixed Effects Model of F2 of \\textsc{bath} \\label{tbl:BF2}"),
+#   include.rownames=FALSE,
+#   file="models/B-F2-mod.tex"
+# )
